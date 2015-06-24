@@ -4,9 +4,13 @@ python:
 sudo: required
 
 before_install:
-- sudo apt-get install -y python-lxml libxml2-dev libxslt1-dev git tidy
+- sudo apt-get install -y python-lxml libxml2-dev libxslt1-dev git tidy wget
 - pip install --use-mirrors pillow cssutils lxml docutils roman
 - pip install --use-mirrors future requests
+- wget http://kindlegen.s3.amazonaws.com/kindlegen_linux_2.6_i386_v2_9.tar.gz
+- tar xvfz kindlegen_linux_2.6_i386_v2_9.tar.gz
+- ln -s kindlegen_linux_2.6_i386_v2_9 kindlegen
+- sudo ln -s /kindlegen /usr/local/bin/kindlegen
 
 # to do: kindlegen
 
@@ -15,8 +19,9 @@ install:
 
 script:
 - python test.py
-- epubmaker 2701-h.htm
+- epubmaker --ebook=2701 --title="Moby Dick" --make=all  2701-h.htm 
 
 branches:
   only:
   - master
+

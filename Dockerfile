@@ -51,6 +51,7 @@ RUN wget http://kindlegen.s3.amazonaws.com/kindlegen_linux_2.6_i386_v2_9.tar.gz
 RUN tar xvfz kindlegen_linux_2.6_i386_v2_9.tar.gz
 #RUN ln -s kindlegen_linux_2.6_i386_v2_9 kindlegen
 RUN chmod +x kindlegen
+RUN ln -s /kindlegen /usr/local/bin/kindlegen
 
 
 # Define working directory.
