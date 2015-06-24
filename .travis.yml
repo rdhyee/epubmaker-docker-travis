@@ -9,8 +9,7 @@ before_install:
 - pip install --use-mirrors future requests
 - wget http://kindlegen.s3.amazonaws.com/kindlegen_linux_2.6_i386_v2_9.tar.gz
 - tar xvfz kindlegen_linux_2.6_i386_v2_9.tar.gz
-- ln -s kindlegen_linux_2.6_i386_v2_9 kindlegen
-- sudo ln -s /kindlegen /usr/local/bin/kindlegen
+- ln -s /kindlegen /usr/local/bin/kindlegen
 
 # to do: kindlegen
 
