@@ -1,0 +1,32 @@
+_repo: Moby-Dick--Or-The-Whale_2701
+author:
+  agent_id_gutenberg: '9'
+  agent_name: Melville, Herman
+  alias: Melville, Hermann
+  birthdate: 1819
+  deathdate: 1891
+  url: http://www.gutenberg.org/2009/agents/9
+  wikipedia: http://en.wikipedia.org/wiki/Herman_Melville
+description: 'See also Etext #2489, Etext #15, and a computer-generated audio file,
+  Etext #9147.'
+gutenberg_bookshelf: Best Books Ever Listings
+identifiers:
+  gutenberg: '2701'
+issued_gutenberg: '2001-07-01'
+language: en
+pg_type: Text
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+subjects:
+- '!lcsh:Whaling ships -- Fiction'
+- '!lcsh:Mentally ill -- Fiction'
+- '!lcsh:Psychological fiction'
+- '!lcc:PS'
+- '!lcsh:Ahab, Captain (Fictitious character) -- Fiction'
+- '!lcsh:Adventure stories'
+- '!lcsh:Ship captains -- Fiction'
+- '!lcsh:Whales -- Fiction'
+- '!lcsh:Whaling -- Fiction'
+- '!lcsh:Sea stories'
+title: Moby Dick; Or, The Whale
+url: http://www.gutenberg.org/ebooks/2701
